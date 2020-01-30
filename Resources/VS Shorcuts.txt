@@ -1,0 +1,38 @@
+VS Shorcuts
+
+Clear Bookmarks
+Ctrl+K, Ctrl+L
+
+Comment Selection
+Ctrl+K, Ctrl+C
+
+Complete Word
+Ctrl+Space
+Alt+Right Arrow
+
+Find
+Ctrl+F
+
+Find All References
+Shift+F12
+
+Format Document
+Ctrl+K, Ctrl+D
+
+Format Selection
+Ctrl+K, Ctrl+F
+
+Go To
+Ctrl+G
+
+Goto Brace
+Ctrl+]
+
+Goto Brace Extend
+Ctrl+Shift+]
+
+Go To Declaration
+Ctrl+F12
+
+Go To Definition
+F12

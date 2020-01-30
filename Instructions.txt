@@ -1,0 +1,64 @@
+Assigment 05:
+
+Optional: 
+Chapter 04:
+Read 4.6 - Comparing Strings
+Read 4.7 - Preventing Data Conversion Exceptions with the TryParse Methods
+Read 4.9 - Radio Buttons and Check Boxes
+Read 4.11 - Introduction to List Boxes
+
+Chapter 05:
+Read 5.1 - More about ListBoxes
+Read 5.6 - Using Files for Data Storage
+Read 5.7 - The OpenFileDialog and SaveFileDialog Controls
+Read 5.9 - The Load Event
+
+Read:Readme.txt of The project on Github .
+
+Use:Use folder that is initially empty to start your project in VS.
+
+GIU Part:
+- Program must have an Icon.
+- Program must have a name.
+- Name of labels,buttons same as output.
+- Cannot change size of the window program while running.
+- I do NOT care about size, but everything should look similar, and function the same, as the output.
+- Your program should include shorcuts.
+- Use the Tab Index property to make it more efficient to use.(You should be able to use the "Tab"key to change the focus of your controls) .
+- Enable or disable some control at some points in your program according to the output file.
+
+Code:
+- Exit button should finish your program.
+- Restart or clear button should clear all inputs and values according to the output file.
+- Use Try-Catch when opening a file.
+- check boxes and radio button should set the price according to the output file.
+- If you change a food option it should clear the check buttons according to the output file.
+- Your Save button should be able to save a file with a default type and name according to the output and with the require information.(Use dialog)
+- Open button should Open only a txt file. Read and show only the first line of the file according to the output.(Use dialog)
+- Data prices (They are not going to change):	
+	pizza $5
+	spagetti 10$
+	lasaga 15$
+
+Additional Requirements:
+- Flowchart for at least one part of the code.
+- UML Diagram.
+
+Rubric:
+40: Code (Comments,Efficiency,Naming,Format,Correct Output).
+40: GUI  (Naming,Correct Output).
+10: Flowchart (Correct Output).
+10: UML (Correct Output).
+
+Submission (On Github):
+- Do the fork to get the project, do the changes, make a pull request from your project and your branch to mine project your branch.
+
+Github Instructions:
+- Work Only in your branch
+
+Useful Links (Optional):
+https://www.c-sharpcorner.com/uploadfile/mahesh/savefiledialog-in-C-Sharp/
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/cd0b129f-adf1-4c4f-9096-f0662772c821/how-to-use-savefiledialog-for-save-text-file
+https://www.draw.io/
+
+Format your code with the VSShorcut(Optional)

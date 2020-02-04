@@ -1,0 +1,9 @@
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\bin\Debug\DonMarioPizzeria.exe.config
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\bin\Debug\DonMarioPizzeria.exe
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\bin\Debug\DonMarioPizzeria.pdb
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\obj\Debug\DonMarioPizzeria.csprojAssemblyReference.cache
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\obj\Debug\DonMarioPizzeria.Form1.resources
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\obj\Debug\DonMarioPizzeria.Properties.Resources.resources
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\obj\Debug\DonMarioPizzeria.csproj.GenerateResource.cache
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\obj\Debug\DonMarioPizzeria.exe
+C:\Users\w_ara\Documents\GitHub\COP1010---Assigment-05\Assignment 5\DonMarioPizzeria\DonMarioPizzeria\obj\Debug\DonMarioPizzeria.pdb

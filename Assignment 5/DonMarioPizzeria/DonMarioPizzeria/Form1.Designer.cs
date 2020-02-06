@@ -161,6 +161,7 @@
             this.groupBoxToppings.TabIndex = 1;
             this.groupBoxToppings.TabStop = false;
             this.groupBoxToppings.Text = "Toppings";
+            this.groupBoxToppings.Enter += new System.EventHandler(this.groupBoxToppings_Enter);
             // 
             // checkBoxToppingOlives
             // 
@@ -171,6 +172,7 @@
             this.checkBoxToppingOlives.TabIndex = 0;
             this.checkBoxToppingOlives.Text = "Olives";
             this.checkBoxToppingOlives.UseVisualStyleBackColor = true;
+            this.checkBoxToppingOlives.CheckedChanged += new System.EventHandler(this.checkBoxToppingOlives_CheckedChanged);
             // 
             // checkBoxToppingHam
             // 
@@ -181,6 +183,7 @@
             this.checkBoxToppingHam.TabIndex = 0;
             this.checkBoxToppingHam.Text = "Ham";
             this.checkBoxToppingHam.UseVisualStyleBackColor = true;
+            this.checkBoxToppingHam.CheckedChanged += new System.EventHandler(this.checkBoxToppingHam_CheckedChanged);
             // 
             // checkBoxToppingBacon
             // 
@@ -191,6 +194,7 @@
             this.checkBoxToppingBacon.TabIndex = 0;
             this.checkBoxToppingBacon.Text = "Bacon";
             this.checkBoxToppingBacon.UseVisualStyleBackColor = true;
+            this.checkBoxToppingBacon.CheckedChanged += new System.EventHandler(this.checkBoxToppingBacon_CheckedChanged);
             // 
             // checkBoxToppingCheese
             // 
@@ -249,6 +253,7 @@
             // 
             // buttonSave
             // 
+            this.buttonSave.Enabled = false;
             this.buttonSave.Location = new System.Drawing.Point(502, 438);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(86, 42);

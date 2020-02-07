@@ -1,0 +1,9 @@
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\bin\Debug\Assigment5.exe.config
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\bin\Debug\Assigment5.exe
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\bin\Debug\Assigment5.pdb
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\obj\Debug\Assigment5.csprojAssemblyReference.cache
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\obj\Debug\Assigment5.Properties.Resources.resources
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\obj\Debug\Assigment5.csproj.GenerateResource.cache
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\obj\Debug\Assigment5.exe
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\obj\Debug\Assigment5.pdb
+C:\Users\Miguelito\source\repos\Assigment5\Assigment5\obj\Debug\Assigment5.FormPapayon.resources

@@ -13,13 +13,11 @@ namespace DonMarioPizzeria
 {
     public partial class Form1 : Form
     {
+        // Constant variables that store the values of the cost of the foods and extras
         const int COST_PIZZA = 5;
         const int COST_SPAGUETTI = 10;
         const int COST_LASAGNA = 15;
-        const int EXTRA_CHEESE = 2;
-        const int EXTRA_HAM = 2;
-        const int EXTRA_BACON = 2;
-        const int EXTRA_OLIVES = 2;
+        
         int total = 0;
         String typeFood = " ";
         public Form1()
@@ -32,6 +30,7 @@ namespace DonMarioPizzeria
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            //If topping is selected adds 2 to the total
             if (checkBoxToppingCheese.Checked)
             {
                 total = total + 2;
@@ -41,15 +40,19 @@ namespace DonMarioPizzeria
                 total = total;
             }
 
-            
+            //Displays the value of total in the texteBoxPRice
             textBoxPrice.Text = "$ " + total.ToString();
         }
-
+        /*
+         * 1.- Exits the program
+         */
         private void buttonExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        /*
+         * 1.- Clears all the data input or clicked
+         */
         private void buttonClear_Click(object sender, EventArgs e)
         {
             // Clear the selected item in the group box Food
@@ -75,9 +78,14 @@ namespace DonMarioPizzeria
 
             listBoxServiceQuality.ClearSelected();
 
+            buttonSave.Enabled = false;
             textBoxPrice.Text = " ";
         }
 
+        /*
+         * 1.- The button opens a selected file
+         * 
+         */
         private void buttonOpen_Click(object sender, EventArgs e)
         {
             //Displays the open file dialog box
@@ -86,9 +94,12 @@ namespace DonMarioPizzeria
             GetFileName(out fileName);
         }
 
+        /*
+         * 1. The button save stores the values of a string in a txt file
+         */
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            //Displays the safe dialog box
+            //Displays the save dialog box
             saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
             //saveFileDialog1.ShowDialog();
             String filename = " ";
@@ -109,7 +120,9 @@ namespace DonMarioPizzeria
             }
 
         }
-
+        /*
+         * 1. Get the file name pre-stablished by the user
+         */
         private void GetFileName(out string selectedFile)
         {
             String display;
@@ -141,7 +154,9 @@ namespace DonMarioPizzeria
                 selectedFile = " ";
             }
         }
-
+        /*
+         * 1.- If any element of the group box is click, the group box delivery is enabled
+         */
         private void groupBoxFood_Enter(object sender, EventArgs e)
         {
             if (radioButtonFoodPizza.Checked == true || radioButtonFoodLasagna.Checked == true || radioButtonFoodLasagna.Checked == true)
@@ -157,7 +172,12 @@ namespace DonMarioPizzeria
             
 
         }
-
+        /*
+         * 1.- Determines if the radio button pizza is clicked
+         * 2.- Enables certain group of boxes , listboxes, and the button save
+         * 3.- Displays the value of the pizza
+         * 4.- Adds the value to the total
+         */
         private void radioButtonFoodPizza_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButtonFoodPizza.Checked)
@@ -184,7 +204,12 @@ namespace DonMarioPizzeria
             // Clear the checkBoxes when the user changes a radiobutton
             clearCheckBox();
         }
-
+        /*
+         * 1.- Determines if the radio button spaguetti is clicked
+         * 2.- Enables certain group of boxes , listboxes, and the button save
+         * 3.- Displays the value of the pizza
+         * 4.- Adds the value to the total
+         */
         private void radioButtonFoodSpaghetti_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButtonFoodSpaghetti.Checked)
@@ -211,7 +236,12 @@ namespace DonMarioPizzeria
             // Clear the checkBoxes when the user changes a radiobutton
             clearCheckBox();
         }
-
+        /*
+         * 1.- Determines if the radio button lasagna is clicked
+         * 2.- Enables certain group of boxes , listboxes, and the button save
+         * 3.- Displays the value of the pizza
+         * 4.- Adds the value to the total
+         */
         private void radioButtonFoodLasagna_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButtonFoodLasagna.Checked)
@@ -244,7 +274,11 @@ namespace DonMarioPizzeria
         {
             
         }
-
+        /*
+         * 1.- Determines if the checkbox bacon is clicked
+         * 2.- Adds the value assigned to the total
+         * 3.- Displays the total value
+         */
         private void checkBoxToppingBacon_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -260,6 +294,10 @@ namespace DonMarioPizzeria
 
             textBoxPrice.Text = "$ " + total.ToString();
         }
+
+        /*
+         * 1.- Method that clears the bellow mentioned checkboxes
+         */
         private void clearCheckBox()
         {
             checkBoxToppingCheese.Checked = false;
@@ -268,6 +306,11 @@ namespace DonMarioPizzeria
             checkBoxToppingOlives.Checked = false;
         }
 
+        /*
+         * 1.- Determines if the checkbox ham is clicked
+         * 2.- Adds the value assigned to the total
+         * 3.- Displays the total value
+         */
         private void checkBoxToppingHam_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxToppingHam.Checked)
@@ -283,6 +326,11 @@ namespace DonMarioPizzeria
             textBoxPrice.Text = "$ " + total.ToString();
         }
 
+        /*
+         * 1.- Determines if the checkbox olives is clicked
+         * 2.- Adds the value assigned to the total
+         * 3.- Displays the total value
+         */
         private void checkBoxToppingOlives_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxToppingOlives.Checked)

@@ -1,6 +1,6 @@
 ﻿namespace DonMarioPizzeria
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            this.pictureBoxDonMario = new System.Windows.Forms.PictureBox();
             this.radioButtonFoodPizza = new System.Windows.Forms.RadioButton();
             this.groupBoxFood = new System.Windows.Forms.GroupBox();
             this.radioButtonFoodLasagna = new System.Windows.Forms.RadioButton();
@@ -51,22 +51,22 @@
             this.buttonExit = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDonMario)).BeginInit();
             this.groupBoxFood.SuspendLayout();
             this.groupBoxDelivery.SuspendLayout();
             this.groupBoxToppings.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBoxDonMario
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(121, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 121);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxDonMario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxDonMario.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxDonMario.Image")));
+            this.pictureBoxDonMario.Location = new System.Drawing.Point(121, 12);
+            this.pictureBoxDonMario.Name = "pictureBoxDonMario";
+            this.pictureBoxDonMario.Size = new System.Drawing.Size(219, 121);
+            this.pictureBoxDonMario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDonMario.TabIndex = 0;
+            this.pictureBoxDonMario.TabStop = false;
             // 
             // radioButtonFoodPizza
             // 
@@ -291,7 +291,7 @@
             this.saveFileDialog1.DefaultExt = "txt";
             this.saveFileDialog1.FileName = "order1";
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -307,12 +307,12 @@
             this.Controls.Add(this.groupBoxToppings);
             this.Controls.Add(this.groupBoxDelivery);
             this.Controls.Add(this.groupBoxFood);
-            this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.pictureBoxDonMario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.Text = "Don Mario";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDonMario)).EndInit();
             this.groupBoxFood.ResumeLayout(false);
             this.groupBoxFood.PerformLayout();
             this.groupBoxDelivery.ResumeLayout(false);
@@ -326,7 +326,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxDonMario;
         private System.Windows.Forms.RadioButton radioButtonFoodPizza;
         private System.Windows.Forms.GroupBox groupBoxFood;
         private System.Windows.Forms.RadioButton radioButtonFoodLasagna;

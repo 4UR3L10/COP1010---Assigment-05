@@ -11,7 +11,7 @@ using System.IO;
 
 namespace DonMarioPizzeria
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
         // Constant variables that store the values of the cost of the foods and extras
         const int COST_PIZZA = 5;
@@ -20,7 +20,7 @@ namespace DonMarioPizzeria
         
         int total = 0;
         String typeFood = " ";
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
             
@@ -129,24 +129,34 @@ namespace DonMarioPizzeria
             StreamReader inputFile;
             if (openFileDialog1.ShowDialog () == DialogResult.OK)
             {
-                //try
-                //{
-                    selectedFile = openFileDialog1.FileName;
+                selectedFile = openFileDialog1.FileName;
+                string check =  openFileDialog1.ToString();
+                try
+                {
+                    
                     inputFile = File.OpenText(selectedFile);
-                    while (!inputFile.EndOfStream)
+                    if (check.Contains(".txt"))
                     {
+                        while (!inputFile.EndOfStream )
+                        {
                         display = inputFile.ReadLine();
                         MessageBox.Show(display);
 
+                        }
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Wrong File....");
                     }
 
                     inputFile.Close();
 
-                //}
-                //catch   (Exception ex)
-                //{
-                //    MessageBox.Show(ex.Message);
-                //}
+                }
+                catch
+                {
+                    MessageBox.Show("Wrong File....");
+                }
                     
             }
             else

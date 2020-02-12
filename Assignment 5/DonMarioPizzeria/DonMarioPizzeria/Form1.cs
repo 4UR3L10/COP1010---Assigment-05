@@ -37,7 +37,7 @@ namespace DonMarioPizzeria
             }
             else
             {
-                total = total;
+                total = total-2;
             }
 
             //Displays the value of total in the texteBoxPRice
@@ -80,6 +80,7 @@ namespace DonMarioPizzeria
 
             buttonSave.Enabled = false;
             textBoxPrice.Text = " ";
+            total = 0;
         }
 
         /*
@@ -298,7 +299,7 @@ namespace DonMarioPizzeria
             }
             else
             {
-                total = total;
+                total = total-2;
             }
 
 
@@ -329,7 +330,7 @@ namespace DonMarioPizzeria
             }
             else
             {
-                total = total;
+                total = total-2;
             }
 
 
@@ -349,7 +350,7 @@ namespace DonMarioPizzeria
             }
             else
             {
-                total = total;
+                total = total-2;
             }
 
 
